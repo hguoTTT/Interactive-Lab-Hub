@@ -73,11 +73,7 @@ Present your idea to the other people in your breakout room. You can just get fe
 
 ## Part B. Act out the Interaction
 
-Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
-
-\*\***Are there things that seemed better on paper than acted out?**\*\*
-
-\*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
+Acting out the interaction, I used a normal lamp and turn it on and off to simulate the process of the light flashing. It turns out that it is fairly noticable. It turns out through the interaction that normal light flashing is already fairly noticable, and it should be even more noticable when the color of the light also changes.
 
 
 ## Part C. Prototype the device

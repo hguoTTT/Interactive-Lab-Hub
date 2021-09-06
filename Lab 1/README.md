@@ -78,15 +78,7 @@ Acting out the interaction, I used a normal lamp and turn it on and off to simul
 
 ## Part C. Prototype the device
 
-You will be using your smartphone as a stand-in for the device you are prototyping. You will use the browser of your smart phone to act as a “light” and use a remote control interface to remotely change the light on that device. 
-
-Code for the "Tinkerbelle" tool, and instructions for setting up the server and your phone are [here](https://github.com/FAR-Lab/tinkerbelle).
-
-We invented this tool for this lab! 
-
-If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
-
-\*\***Give us feedback on Tinkerbelle.**\*\*
+One problem about using tinkerbell and the smartphone is that the smartphone doesn't emit a strong enough like, therefore it is a bit difficult to see the change in colors if you are focusing on another task and not on the phone. Another thing about tinkerbell is that it is a bit difficult to emulate flashing lights, and you would have to manually switch between different colors which can be a bit tedious and difficult.
 
 
 ## Part D. Wizard the device

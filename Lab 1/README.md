@@ -55,13 +55,9 @@ One problem about using tinkerbell and the smartphone is that the smartphone doe
 
 
 ## Part D. Wizard the device
-Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
+A demo with paper prototype is as follows:
 
-\*\***Include your first attempts at recording the set-up video here.**\*\*
-
-Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
-
-\*\***Show the follow-up work here.**\*\*
+https://drive.google.com/file/d/1_fW0LEraNtZUWeRUIoX-H93VLnmQpOBc/view?usp=sharing
 
 
 ## Part E. Costume the device

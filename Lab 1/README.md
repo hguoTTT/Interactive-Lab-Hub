@@ -64,7 +64,7 @@ The user is able to turn the reading posture corrector on and off by pressing th
 
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 
-\*\***Include a picture of your storyboard here**\*\*
+(Image 05)
 
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 
@@ -93,23 +93,14 @@ Now, hange the goal within the same setting, and update the interaction with the
 
 ## Part E. Costume the device
 
-Only now should you start worrying about what the device should look like. Develop a costume so that you can use your phone as this device.
+(Image 06)
 
-Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
-
-\*\***Include sketches of what your device might look like here.**\*\*
-
-\*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
+One thing that was considered during the design process is that when the user is reading with the correct posture, the posture corrector serves as a normal desk lamp. Because of that, the shape of the corrector is designed specifically to resemble a lamp.
 
 
 ## Part F. Record
 
 \*\***Take a video of your prototyped interaction.**\*\*
-
-\*\***Please indicate anyone you collaborated with on this Lab.**\*\*
-Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
-
-
 
 # Staging Interaction, Part 2 
 

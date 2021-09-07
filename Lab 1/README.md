@@ -39,11 +39,6 @@ Sketch a storyboard of the interactions you are planning. It does not need to be
 
 (Image 05)
 
-Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
-
-\*\***Summarize feedback you got here.**\*\*
-
-
 ## Part B. Act out the Interaction
 
 Acting out the interaction, I used a normal lamp and turn it on and off to simulate the process of the light flashing. It turns out that it is fairly noticable. It turns out through the interaction that normal light flashing is already fairly noticable, and it should be even more noticable when the color of the light also changes.
@@ -69,7 +64,7 @@ One thing that was considered during the design process is that when the user is
 
 ## Part F. Record
 
-\*\***Take a video of your prototyped interaction.**\*\*
+--Pending--
 
 # Staging Interaction, Part 2 
 

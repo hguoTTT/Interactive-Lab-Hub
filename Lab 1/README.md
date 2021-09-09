@@ -37,7 +37,7 @@ The user is able to turn the reading posture corrector on and off by pressing th
 
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 
-(Image 05)
+![alt text](https://github.com/hguoTTT/Interactive-Lab-Hub/edit/Fall2021/Lab%201/image0%20(5).jpg?raw=true)
 
 ## Part B. Act out the Interaction
 
@@ -57,7 +57,7 @@ https://drive.google.com/file/d/1_fW0LEraNtZUWeRUIoX-H93VLnmQpOBc/view?usp=shari
 
 ## Part E. Costume the device
 
-(Image 06)
+![alt text](https://github.com/hguoTTT/Interactive-Lab-Hub/edit/Fall2021/Lab%201/image0%20(6).jpg?raw=true)
 
 One thing that was considered during the design process is that when the user is reading with the correct posture, the posture corrector serves as a normal desk lamp. Because of that, the shape of the corrector is designed specifically to resemble a lamp.
 
@@ -84,4 +84,8 @@ Do last week’s assignment again, but this time:
 2) You can use any modality (e.g., vibration, sound) to prototype the behaviors! Again, be creative!
 3) We will be grading with an emphasis on creativity. 
 
-\*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
+Plan
+
+In addition to the first week, I've decided it might be a good idea to include a vibration to the reading posture corrector. A vibration, in addition to the light changes, shouldn't be disturbing to other people in the room. But the vibration should hopefully be another way of letting the user know that they may need to fix their posture.
+
+Below is an updated storyboard of the interaction.

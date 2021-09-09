@@ -37,7 +37,7 @@ The user is able to turn the reading posture corrector on and off by pressing th
 
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 
-![alt text](https://github.com/hguoTTT/Interactive-Lab-Hub/edit/Fall2021/Lab%201/image0%20(5).jpg?raw=true)
+![Test Image 1](image0%20(5).jpg)
 
 ## Part B. Act out the Interaction
 
@@ -57,7 +57,7 @@ https://drive.google.com/file/d/1_fW0LEraNtZUWeRUIoX-H93VLnmQpOBc/view?usp=shari
 
 ## Part E. Costume the device
 
-![alt text](https://github.com/hguoTTT/Interactive-Lab-Hub/edit/Fall2021/Lab%201/image0%20(6).jpg?raw=true)
+![Test Image 2](image0%20(6).jpg)
 
 One thing that was considered during the design process is that when the user is reading with the correct posture, the posture corrector serves as a normal desk lamp. Because of that, the shape of the corrector is designed specifically to resemble a lamp.
 

@@ -75,7 +75,7 @@ This describes the second week's work for this lab activity.
 
 You will be assigned three partners from another group. Go to their github pages, view their videos, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear. 
 
-\*\***Summarize feedback from your partners here.**\*\*
+One feedback that I received is that I can talk more about the sensors for the posture corrector. Another feedback I received is that there might be privacy issues, but wasn't made clear how it might be so.
 
 ## Make it your own
 

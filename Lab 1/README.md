@@ -89,3 +89,5 @@ Plan
 In addition to the first week, I've decided it might be a good idea to include a vibration to the reading posture corrector. A vibration, in addition to the light changes, shouldn't be disturbing to other people in the room. But the vibration should hopefully be another way of letting the user know that they may need to fix their posture.
 
 Below is an updated storyboard of the interaction.
+
+![Test Image 1](image0%20(5).jpg)

@@ -98,4 +98,4 @@ Acting out the interactions, I used a phone to mimic the vibrations that I plan 
 
 Wizard the device & Costume the Device
 
-The design of the updated reading posture corrector is the same as the one in week one.
+The design of the updated reading posture corrector is the same as the one in week one, but have an extra feature than allows the lamp to vibrate.      

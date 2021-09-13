@@ -91,3 +91,11 @@ In addition to the first week, I've decided it might be a good idea to include a
 Below is an updated storyboard of the interaction.
 
 ![Test Image 1](image0%20(5).jpg)
+
+Act out the Interaction
+
+Acting out the interactions, I used a phone to mimic the vibrations that I plan to add the reading posture corrector. It turns out that the phone virbration actually emitts a bigger sound than I initially anticipated, and it could potentially be a bit intrusome if I wanted to the reading posture corrector to be unintrusive.
+
+Wizard the device & Costume the Device
+
+The design of the updated reading posture corrector is the same as the one in week one.

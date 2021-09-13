@@ -64,7 +64,9 @@ One thing that was considered during the design process is that when the user is
 
 ## Part F. Record
 
---Pending--
+Below is a video of the interaction acted out:
+
+https://drive.google.com/file/d/1V5wTgzNDPZmW0VAeDHdZuOWBEKvZUGjh/view?usp=sharing
 
 # Staging Interaction, Part 2 
 
@@ -98,4 +100,8 @@ Acting out the interactions, I used a phone to mimic the vibrations that I plan 
 
 Wizard the device & Costume the Device
 
-The design of the updated reading posture corrector is the same as the one in week one, but have an extra feature than allows the lamp to vibrate.      
+The design of the updated reading posture corrector is the same as the one in week one, but have an extra feature than allows the lamp to vibrate.    
+
+Below is a video of the interaction with the vibrations added it:
+
+https://drive.google.com/file/d/15wnUB4SLePE6vef2aSly-R7Mv-j9HWBD/view?usp=sharing

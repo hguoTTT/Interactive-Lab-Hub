@@ -77,9 +77,10 @@ while True:
     y += font.getsize(str)[1]
     
     if buttonB.value and not buttonA.value:  # just button A pressed
-        fontSize++
+        fontSize+=1 
     if buttonA.value and not buttonB.value:  # just button B pressed
-        fontSize--
+        if fontSize > 2:
+            fontSize-=1
     
     # Display image.
     disp.image(image, rotation)

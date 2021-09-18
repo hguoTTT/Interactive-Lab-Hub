@@ -56,7 +56,8 @@ x = 0
 # Alternatively load a TTF font.  Make sure the .ttf font file is in the
 # same directory as the python script!
 # Some other nice fonts to try: http://www.dafont.com/bitmap.php
-font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 18)
+fontSize = 18
+font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", fontSize)
 
 # Turn on the backlight
 backlight = digitalio.DigitalInOut(board.D22)
@@ -74,6 +75,11 @@ while True:
     y = top
     draw.text((x, y), str, font=font, fill=color)
     y += font.getsize(str)[1]
+    
+    if buttonB.value and not buttonA.value:  # just button A pressed
+        fontSize++
+    if buttonA.value and not buttonB.value:  # just button B pressed
+        fontSize--
     
     # Display image.
     disp.image(image, rotation)

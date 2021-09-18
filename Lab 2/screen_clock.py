@@ -69,7 +69,7 @@ while True:
 
     #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py 
     str = strftime("%m/%d/%Y %H:%M:%S")
-    color = ["#"+''.join([random.choice('0123456789ABCDEF') for j in range(6)]
+    color = "#"+''.join([random.choice('0123456789ABCDEF') for j in range(6)])
     
     y = top
     draw.text((x, y), str, font=font, fill=color)

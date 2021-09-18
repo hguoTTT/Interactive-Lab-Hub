@@ -5,6 +5,7 @@ import board
 from PIL import Image, ImageDraw, ImageFont
 import adafruit_rgb_display.st7789 as st7789
 from time import strftime, sleep
+import random
 
 
 # Configuration for CS and DC pins (these are FeatherWing defaults on M0/M4):
@@ -68,9 +69,10 @@ while True:
 
     #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py 
     str = strftime("%m/%d/%Y %H:%M:%S")
+    color = ["#"+''.join([random.choice('0123456789ABCDEF') for j in range(6)]
     
     y = top
-    draw.text((x, y), str, font=font, fill="#FFFFFF")
+    draw.text((x, y), str, font=font, fill=color)
     y += font.getsize(str)[1]
     
     # Display image.

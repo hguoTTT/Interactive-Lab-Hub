@@ -67,6 +67,8 @@ backlight.value = True
 #Buttons
 buttonA = digitalio.DigitalInOut(board.D23)
 buttonB = digitalio.DigitalInOut(board.D24)
+buttonA.switch_to_input()
+buttonB.switch_to_input()
 
 while True:
     # Draw a black filled box to clear the image.

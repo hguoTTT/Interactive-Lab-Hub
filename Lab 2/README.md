@@ -181,12 +181,14 @@ After that, Git will ask you to login to your GitHub account to push the updates
 ## Part F. 
 ## Make a short video of your modified barebones PiClock
 
-\*\*\***Take a video of your PiClock.**\*\*\*
+https://drive.google.com/file/d/1XbMW3j4fRa8Yx0QxMoM19OSFvYJewyNQ/view?usp=sharing
 
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 
-Further interactions I would like to implement in part 2 includes changing up the background (although unsure how I'll do it exactly). Furthermore, I plan to tune the flashing of the words on the PiClock to make it flashy but not disturbing, and also make the changing of the fonts more responsive.
+Further interactions I would like to implement in part 2 includes changing up the background (although unsure how I'll do it exactly). Furthermore, I plan to tune the flashing of the words on the PiClock to make it flashy but not disturbing, and also make the changing of the fonts more responsive. 
+
+Another thing I'm thinking of doing would be to thinking of a better theme for the flashing lights. Right now, it is set that color flashes randomly, but maybe it is better that it flashes in a pattern.
 
 
 # Prep for Part 2

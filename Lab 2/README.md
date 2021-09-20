@@ -186,6 +186,8 @@ After that, Git will ask you to login to your GitHub account to push the updates
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 
+Further interactions I would like to implement in part 2 includes changing up the background (although unsure how I'll do it exactly). Furthermore, I plan to tune the flashing of the words on the PiClock to make it flashy but not disturbing, and also make the changing of the fonts more responsive.
+
 
 # Prep for Part 2
 

@@ -198,13 +198,8 @@ Another thing I'm thinking of doing would be to thinking of a better theme for t
 2. Look at and give feedback on the Part G. for at least 2 other people in the class (and get 2 people to comment on your Part G!)
 
 # Lab 2 Part 2
+In the second week of class, I decided to implement changing up the background as stated in part G in week 1. I've decided to change the color of the background based on the time of the time. I've shared my idea with the people at my table, and one particular feedback that I received is concerns that the color change might be to subtle to recognize throughout the day. One person suggested that I could use a time lapse to record the color change, but that idea is impractical for me because of the lack of technical equipments to do so. Taking the feedbacks in my, I decided to implement the background change by changing the RGB value of the background based on the Hour, Minute and Second of the day respectively. I decided to do it this way because instead of being a gradual change throughout the day, doing it this way will give the user a more imminent feedback up to the minutes, or even the seconds while also still taking the daily passing of time in mind.
 
-Pull Interactive Lab Hub updates to your repo.
-
-Modify the code from last week's lab to make a new visual interface for your new clock. You may [extend the Pi](Extending%20the%20Pi.md) by adding sensors or buttons, but this is not required.
-
-As always, make sure you document contributions and ideas from others explicitly in your writeup.
-
-You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
+Another change that was implemented is instead of flashing the text random colors, I changed it so that the text changes colors between black and the inverse color of the background. This way hopefully it fixes some issues of the flashing being to overwhelming from week 1, but also keeping the flashing to be somewhat interesting.
 
 

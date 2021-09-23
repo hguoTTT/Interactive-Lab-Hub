@@ -71,6 +71,8 @@ buttonB = digitalio.DigitalInOut(board.D24)
 buttonA.switch_to_input()
 buttonB.switch_to_input()
 
+count = 0
+
 while True:
     # Draw a black filled box to clear the image.
     now = datetime.datetime.now()
@@ -86,11 +88,12 @@ while True:
     #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py 
     str = strftime("%m/%d/%Y %H:%M:%S")
     ## color = "#"+''.join([random.choice('0123456789ABCDEF') for j in range(6)])
-    color = random.random()
+    ##color = random.random()
+    count++
     font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", fontSize)
     
     y = top
-    if color > 0.5:
+    if count % 2 > 0:
          draw.text((x, y), str, font=font, fill=(c,d,e))
     else:
          draw.text((x, y), str, font=font, fill=(0,0,0))

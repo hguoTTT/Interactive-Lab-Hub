@@ -89,7 +89,11 @@ while True:
     font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", fontSize)
     
     y = top
-    draw.text((x, y), str, font=font, fill=color)
+    if e % 2 == 0:
+         draw.text((x, y), str, font=font, fill=(c,d,e))
+    else:
+         draw.text((x, y), str, font=font, fill=(0,0,0))
+   
     y += font.getsize(str)[1]
     
     if buttonB.value and not buttonA.value:  # just button A pressed

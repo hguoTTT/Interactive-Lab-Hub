@@ -75,9 +75,13 @@ while True:
     # Draw a black filled box to clear the image.
     now = datetime.datetime.now()
     hour = now.hour
+    minute = now.minute
+    second = now.second
     c = hour * 10
+    d = minute * 4
+    e = second * 4
     
-    draw.rectangle((0, 0, width, height), outline=0, fill=(255-c, 255-c, 255-c))
+    draw.rectangle((0, 0, width, height), outline=0, fill=(255-c, 255-d, 255-e))
 
     #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py 
     str = strftime("%m/%d/%Y %H:%M:%S")

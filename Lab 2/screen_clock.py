@@ -89,7 +89,7 @@ while True:
     str = strftime("%m/%d/%Y %H:%M:%S")
     ## color = "#"+''.join([random.choice('0123456789ABCDEF') for j in range(6)])
     ##color = random.random()
-    count++
+    count += 1
     font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", fontSize)
     
     y = top

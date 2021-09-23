@@ -6,6 +6,7 @@ from PIL import Image, ImageDraw, ImageFont
 import adafruit_rgb_display.st7789 as st7789
 from time import strftime, sleep
 import random
+import datetime
 
 
 # Configuration for CS and DC pins (these are FeatherWing defaults on M0/M4):
@@ -72,7 +73,11 @@ buttonB.switch_to_input()
 
 while True:
     # Draw a black filled box to clear the image.
-    draw.rectangle((0, 0, width, height), outline=0, fill=(0, 255, 0))
+    now = datetime.datetime.now()
+    hour = now.hour
+    c = hour * 10
+    
+    draw.rectangle((0, 0, width, height), outline=0, fill=(255-c, 255-c, 255-c))
 
     #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py 
     str = strftime("%m/%d/%Y %H:%M:%S")

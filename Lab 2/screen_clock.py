@@ -85,11 +85,12 @@ while True:
 
     #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py 
     str = strftime("%m/%d/%Y %H:%M:%S")
-    color = "#"+''.join([random.choice('0123456789ABCDEF') for j in range(6)])
+    ## color = "#"+''.join([random.choice('0123456789ABCDEF') for j in range(6)])
+    color = random.random()
     font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", fontSize)
     
     y = top
-    if e % 2 == 0:
+    if color > 0.5:
          draw.text((x, y), str, font=font, fill=(c,d,e))
     else:
          draw.text((x, y), str, font=font, fill=(0,0,0))

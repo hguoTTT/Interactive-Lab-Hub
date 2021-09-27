@@ -202,4 +202,7 @@ In the second week of class, I decided to implement changing up the background a
 
 Another change that was implemented is instead of flashing the text random colors, I changed it so that the text changes colors between black and the inverse color of the background. This way hopefully it fixes some issues of the flashing being to overwhelming from week 1, but also keeping the flashing to be somewhat interesting.
 
+An updated version of the interactions:
+https://drive.google.com/file/d/1ibFlZK6-gOulY-GRmgg2ULTpG9NI9yuk/view?usp=sharing
+
 

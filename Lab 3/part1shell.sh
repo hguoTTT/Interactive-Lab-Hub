@@ -1,1 +1,1 @@
-echo "Please provide your zipcode" | zipcode -tts
+flite -voice slt -t "Please provide your zipcode"

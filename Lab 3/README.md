@@ -99,7 +99,7 @@ From a remote browser on the same network, check to make sure your webserver is 
 
 ### Storyboard
 
-Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stuck? Make a device that talks for dogs. If that is too stupid, find an application that is better than that.) 
+Math tutor bot. The math tutor bot aims to teach first grade children how to do simple additions and subtractions. It is meant to be acted as an alternative to paper problem sets and test the children in a more conversational way so that it he/she can feel more engaged in learning math. Also, it can come up with endless questions, so the children can have as much practice as he/she wants. The bot would first ask the children a simple addition or subtraction problem through text to speech, and would then wait for a respoce. If the children got the question right, the bot will congratulate the children, and move on. If the children got the quesiton wrong, the bot will prompt the children to try again.
 
 \*\***Post your storyboard and diagram here.**\*\*
 

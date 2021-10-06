@@ -110,6 +110,8 @@ Find a partner, and *without sharing the script with your partner* try out the d
 A video of the interaction acted out:
 https://drive.google.com/file/d/15tbfG_PGSsya5jZ0Mlh0nTfWD82iuLQ3/view?usp=sharing
 
+One thing that I have noticed when acting the scene out is that it might have been a good idea to repeat the question when the user gets it right. Looking at the recording, I realized that it took me a second to remember what the question originally was when I was prompted to try again. Therefore, repeating the question would greatly help the user refresh their memories.
+
 ### Wizarding with the Pi (optional)
 In the [demo directory](./demo), you will find an example Wizard of Oz project. In that project, you can see how audio and sensor data is streamed from the Pi to a wizard controller that runs in the browser.  You may use this demo code as a template. By running the `app.py` script, you can see how audio and sensor data (Adafruit MPU-6050 6-DoF Accel and Gyro Sensor) is streamed from the Pi to a wizard controller that runs in the browser `http://<YouPiIPAddress>:5000`. You can control what the system says from the controller as well!
 

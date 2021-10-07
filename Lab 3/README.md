@@ -128,7 +128,10 @@ For Part 2, you will redesign the interaction with the speech-enabled device usi
 As stated earlier, through testing the interaction, I've realized that it might be helpful that I repeat the question, when the user gets the answer wrong. This is because repeating the question helps the user refresh their memories and remember what the question was.
 
 2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
-3. Make a new storyboard, diagram and/or script based on these reflections.
+
+Maybe aside from speech, it might be helpful to provide the users with a visual aid of what the question is, and what the user should be doing.
+
+4. Make a new storyboard, diagram and/or script based on these reflections.
 
 ## Prototype your system
 

@@ -13,4 +13,4 @@ correct.save("correct.mp3")
 incorrect.save("incorrect.mp3")
   
 # Playing the converted file
-os.system("mpg321 correct.mp3")
+os.system("mplayer correct.mp3")

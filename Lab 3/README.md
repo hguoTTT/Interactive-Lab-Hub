@@ -154,11 +154,10 @@ Try to get at least two people to interact with your system. (Ideally, you would
 Answer the following:
 
 ### What worked well about the system and what didn't?
-\*\**your answer here*\*\*
+The system worked well in the sense that it is able to generate endless questions if needed to be. One thing that didn't work well is that the system is not so good at recepting a negative answer, so it has to be programmed explicitly so that the answer would always be positive (making sure the first number is always bigger than the second number).
 
 ### What worked well about the controller and what didn't?
-
-\*\**your answer here*\*\*
+One thing that works well is that since the answer the user imputs are usually fairly simple, the recpetion has been decent and fairly accurate. One thing that didn't work so well is that the wait time can be hard to tune. There need to be enough time given for the user to react, but sometimes there is a slight wait if we make the reception time too long.
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 

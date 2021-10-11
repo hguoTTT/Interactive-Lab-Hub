@@ -40,7 +40,7 @@ def main():
       audio = r.listen(source)
     response = r.recognize_sphinx(audio)
     responseInt = w2n.word_to_num(response)
-    if reponseInt == answer:
+    if responseInt == answer:
       os.system("mplayer correct.mp3")
       a = random.randint(5,9)
       b = random.randint(0,5)

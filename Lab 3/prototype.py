@@ -32,7 +32,8 @@ def main():
   else:
     questionText = "What is " + str(a) + " plus " + str(b)
     answer = a+b
-  while true:
+  loop = true
+  while loop:
     question = gTTS(text=questionText, lang=language, slow=False)
     question.save("question.mp3")
     os.system("mplayer question.mp3")

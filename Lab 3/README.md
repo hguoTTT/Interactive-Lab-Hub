@@ -144,6 +144,8 @@ The system should:
 Libraries Used:
 gTTS, word2number, speechRecognition, pocketSphinx
 
+When prototype.py is ran, the script will generate a random simple math quesiton. It is outputed through the text2speech functions, and broadcasted so that the user hears it. The system then waits for the user to provide a resonse. It takes in the response through the voice recognition and interprets with the pocketSphinx library. The reponse it then converted with a word2number library and compared to the answer. If the user answers the question correct, they are congratulated and a new question is generated. If they got the answer wrong, they are prompted to try again, the and the system will repeat the question.
+
 *Include videos or screencaptures of both the system and the controller.*
 
 ## Test the system

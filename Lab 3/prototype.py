@@ -15,7 +15,7 @@ incorrect.save("incorrect.mp3")
 # Playing the converted file
 #os.system("mplayer correct.mp3")
 
-def main()
+def main():
   a = random.randint(5,9)
   b = random.randint(0,5)
   c = random.randint(0,1)

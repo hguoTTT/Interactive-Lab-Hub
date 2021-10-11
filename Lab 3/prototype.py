@@ -6,7 +6,7 @@ incorrectText = 'Try again.'
   
 language = 'en'
 correct = gTTS(text=correctText, lang=language, slow=False)
-inccorrect = gTTS(text=incorrectText, lang=language, slow=False) 
+incorrect = gTTS(text=incorrectText, lang=language, slow=False) 
 
 # Saving the converted audio in a mp3 file named
 correct.save("correct.mp3")

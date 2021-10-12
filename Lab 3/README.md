@@ -160,11 +160,9 @@ The system worked well in the sense that it is able to generate endless question
 One thing that works well is that since the answer the user imputs are usually fairly simple, the recpetion has been decent and fairly accurate. One thing that didn't work so well is that the wait time can be hard to tune. There need to be enough time given for the user to react, but sometimes there is a slight wait if we make the reception time too long.
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
-
-\*\**your answer here*\*\*
+Designing an autonomous version of the system can be hard because it is hard to always know what the persion would do or say. In my device's instance, although the answer is usually fairly straight forward, and I can expect the user to give me a somewhat reasonable response, it is still hard to determine how much time to give user to answer the question. Since it is hard for the machine to recognize when the user is done answering, I have to leave the reception on for the whole duration. Therefore, it is hard to balance how long for the reception to be.
 
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
-
-\*\**your answer here*\*\*
+A part from the sound, other modes of possible interactions includes having a visual. It makes sense for the user to, apart from hearing the math question, also have an alternative way of retrieving the information (displaying the qeustion on some sort of screen).
 

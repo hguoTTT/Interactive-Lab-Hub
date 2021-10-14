@@ -151,6 +151,8 @@ When prototype.py is ran, the script will generate a random simple math quesiton
 
 *Include videos or screencaptures of both the system and the controller.*
 
+Video of the Interaction: https://drive.google.com/file/d/1_uwIvZcGtqb52hsZbI9r3aZ0g35GUCAj/view?usp=sharing
+
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
 

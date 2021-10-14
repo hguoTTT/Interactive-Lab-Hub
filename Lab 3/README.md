@@ -133,6 +133,8 @@ Maybe aside from speech, it might be helpful to provide the users with a visual 
 
 4. Make a new storyboard, diagram and/or script based on these reflections.
 
+![Test Image 1](image0%20(11).jpg)
+
 ## Prototype your system
 
 The system should:

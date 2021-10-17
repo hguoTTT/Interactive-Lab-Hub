@@ -176,9 +176,10 @@ Usually, sensors need to positioned in specific locations or orientations to mak
 **\*\*\*Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.\*\*\***
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
+Somethings that these sketches do not completely reflect for example is the dimensions of the prototype. Just by imagining the prototype in these sketches, it is hard to grasp whether the device feels right in terms of its sizes. A physical prototype would be better address these problem to find the perfect dimension.
 
 **\*\*\*Pick one of these designs to prototype.\*\*\***
-
+I decided to proceed with the mini game cabinet
 
 ### Part D
 ### Physical considerations for displaying information and housing parts

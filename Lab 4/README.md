@@ -227,7 +227,11 @@ Some of the questions that arise with the designs are how does the designs actua
 
 **\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
 
+For the prototype, I will end up prototyping idea 5.
+
 **\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
+
+Because of the size of the screen that I am working with with the raspberry pi, the final product will ultimately be fairly small. Because of this, it makes more sense for the device to be handheld. This way you aren't too far away from the screen, and you can fully ultilize the benefits of a small screen -- the portability to bring it around. Design 1 and design 5 are both handheld versions of this device but are designed slightly differently; ultimately I chose 5 over 1 because I feel like the design is more compact and portable.
 
 Build a cardbord prototype of your design.
 

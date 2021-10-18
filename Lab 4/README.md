@@ -223,6 +223,8 @@ Think about how you want to present the information about what your sensor is se
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
+Some of the questions that arise with the designs are how does the designs actually feel to hold, which is something that is hard to see from the sketches alone. We need to make the prototype to see if it is awkward or not to hold and use. Another question to consider is where do we envision to use these devices. While the handheld devices are more obvious, there are also a couple devices are more unsure. For example, in design 2, we can both put the screen on the table or mount in on a wall.
+
 **\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
 
 **\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)

@@ -241,6 +241,10 @@ Build a cardbord prototype of your design.
 
 **\*\*\*Document your rough prototype.\*\*\***
 
+By building the prototype, one thing that came up very soon is that the screen on the raspberry pi is way too small for this device. It is very awkward to use the device as you have to look very closely at the device to be able to read the screen. As an alternative, I've tried using my phone as an alternative for the screen during this prototype process. The phone screen is slightly bigger than the rasberry pi screen, and more suitable for the purpose of this device.
+
+<< Pic here>>
+
 
 LAB PART 2
 
@@ -281,7 +285,7 @@ We encourage you to try using these controls, **while** paying particular attent
 ### Record
 
 Document all the prototypes and iterations you have designed and worked on! Again, deliverables for this lab are writings, sketches, photos, and videos that show what your prototype:
-* "Looks like": shows how the device should look, feel, sit, weigh, etc.
+* "Looks like": The prototype, instead of looking like a arcade box like the original intention, looks more like a modern handheld gaming console.
 * "Works like": shows what the device can do
 * "Acts like": shows how a person would interact with the device
 

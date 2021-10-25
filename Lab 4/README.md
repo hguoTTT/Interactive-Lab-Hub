@@ -285,9 +285,15 @@ We encourage you to try using these controls, **while** paying particular attent
 ### Record
 
 Document all the prototypes and iterations you have designed and worked on! Again, deliverables for this lab are writings, sketches, photos, and videos that show what your prototype:
-* "Looks like": The prototype, instead of looking like a arcade box like the original intention, looks more like a modern handheld gaming console.
-![Test Image 1](unknown.png)
 
-* "Works like": The user is able to move the 
-* "Acts like": shows how a person would interact with the device
+Below is an image:
+![Test Image 1](unknown.png)
+Below is an interaction (took the phone away because I needed it to film :(
+https://drive.google.com/file/d/1Pkp_7m79ZplEgBrvvdDJaDaeCnauS-su/view?usp=sharing
+
+* "Looks like": The prototype, instead of looking like a arcade box like the original intention, looks more like a modern handheld gaming console. The size is slightly bigger than a phone, but is still able to be held with one hand
+
+* "Works like": The user is able to move the joystick to the control the game, just like one would do with an arcade box.
+ 
+* "Acts like": Refer to the interaction video above. As we can see, the device is small, so the user can move the prototype with ease, and adjust his/her posture while using the device. Also the prototype is designed so that the user is able to control the joystick with the same hand they are using to hold the device. Of course, the user is also able to hold the device with two hands if they so wishes to, and will just hold the other end of the device with their other hand when they do so.
 

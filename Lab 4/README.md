@@ -286,6 +286,8 @@ We encourage you to try using these controls, **while** paying particular attent
 
 Document all the prototypes and iterations you have designed and worked on! Again, deliverables for this lab are writings, sketches, photos, and videos that show what your prototype:
 
+When I was explorying this version of the prototype, I first experiented using the screen from the pi. I quickly realized that the screen was too small, and it feels really awkward to use the device. The following device is the second iteration, where I used a phone screen as a substitute. 
+
 Below is an image:
 ![Test Image 1](unknown.png)
 Below is an interaction (took the phone away because I needed it to film :(

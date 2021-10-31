@@ -199,6 +199,10 @@ Try out different interaction outputs and inputs.
 
 **\*\*\*Describe and detail the interaction, as well as your experimentation here.\*\*\***
 
+I've decided to experiment more with the TeachableMachines model. I've first started to experiment with testing if the model can correctly classify people and photos, and it turns out that the models does pretty well in differentiating the difference. After that I've also tested with different objects, and achieved varying degrees of success.
+
+In the end, I've decided to move forward with a prototyping a device that tries to differentiate wheter the input is a dumpling. This is similer to the "Not Hotdog" app from the TV show Silicon Valley. It is interesting to see how the device tries to catagorize some more non-conventional dumplings.
+
 ### Part C
 ### Test the interaction prototype
 
@@ -208,6 +212,8 @@ For example:
 1. When does it fail?
 1. When it fails, why does it fail?
 1. Based on the behavior you have seen, what other scenarios could cause problems?
+
+
 
 **\*\*\*Think about someone using the system. Describe how you think this will work.\*\*\***
 1. Are they aware of the uncertainties in the system?

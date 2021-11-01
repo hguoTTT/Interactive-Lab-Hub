@@ -213,13 +213,15 @@ For example:
 1. When it fails, why does it fail?
 1. Based on the behavior you have seen, what other scenarios could cause problems?
 
-
+Testing the interactions, I have noticed a few things. First of all, the prototype works best when the input clearly is a dumpling or clearly isn't. When there is no fuzziness in the decision, the model works exceptionally well. One particular time when the model fails is when input contains multiple objects in the screen (especially when it contains both dumplings and non-dumplings). The model would fail to always give a correct answer in these situations because both dumplings and non-dumplings are in the picture. Other scenarios that could cause problems is when I show other styles of dumplings (pan friend vs. boiled etc).
 
 **\*\*\*Think about someone using the system. Describe how you think this will work.\*\*\***
 1. Are they aware of the uncertainties in the system?
 1. How bad would they be impacted by a miss classification?
 1. How could change your interactive system to address this?
 1. Are there optimizations you can try to do on your sense-making algorithm.
+
+When another person uses this system, they are more than likely to not think about the above considerations. Because of that, it is more than likely that they are not aware of the uncertainties in the system. Since the device is mostly made for fun, it is not the end of the world when there is a misclassification; but for the smoothness of the interaction, it is still to my interest to make the device as accurate as possible. One way to increase such accuracy is to provide more training images. This includes different kinds of dumplings (fried, boiled etc) as well as a myriad of different non-dumpling objects so that don't get misflagged as dumplings.
 
 ### Part D
 ### Characterize your own Observant system

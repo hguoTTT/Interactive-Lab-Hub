@@ -100,9 +100,9 @@ pi@ixe00:~/openCV-examples/object-detection $ python detect.py
 
 **\*\*\*Try each of the following four examples in the `openCV-examples`, include screenshots of your use and write about one design for each example that might work based on the individual benefits to each algorithm.\*\*\***
 
-![Test Image 1](unknown(1).png)
-![Test Image 1](unknown(2).png)
-![Test Image 1](unknown(3).png)
+![Test Image 1](unknown%20(1).png)
+![Test Image 1](unknown%20(2).png)
+![Test Image 1](unknown%20(3).png)
 
 #### MediaPipe
 
@@ -142,7 +142,7 @@ Try the two main features of this script: 1) pinching for percentage control, an
 
 (You might also consider how this notion of percentage control with hand tracking might be used in some of the physical UI you may have experimented with in the last lab, for instance in controlling a servo or rotary encoder.)
 
-![Test Image 1](unknown(4).png)
+![Test Image 1](unknown%20(4).png)
 
 
 

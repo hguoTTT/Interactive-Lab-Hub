@@ -253,8 +253,10 @@ During the lecture, we mentioned questions to help characterize a material:
 
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
 
-A video of the interaction is as follows:
+A video of the interaction is as follows (original video from week 1 was lost, and here is a copy of the final video):
 https://drive.google.com/file/d/1A4O0go-geE4bn_-yid1RxgzChTdixfUi/view?usp=sharing
+
+To answer a few of the questions in words, The device can be used to tell what is a dumpling and what is a non-dumpling. A good environment for X is when we have lots of training data (including lots of different kinds of dumpling photos and non-dumpling photos). It is non as good of an environment when the training data is limited, and the model will not perform as well. The model breaks, when we have a dumpling in the camera, but it is only a small fraction of the image. In these situations, the model will fail to recognize the dumpling and instead classify it as a non-dumpling, and the user will be dissapointed. In general, when put in a good environment, the model feels good to use and pretty smooth at accomplishing what it's supposed to. 
 
 
 
@@ -263,6 +265,10 @@ https://drive.google.com/file/d/1A4O0go-geE4bn_-yid1RxgzChTdixfUi/view?usp=shari
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
 
 **\*\*\*Include a short video demonstrating the finished result.\*\*\***
+
+One realization that happened when I asked my roomate to test out this interaction is that if the dumpling doesn't take up the whole screen (for example when we only have a single dumpling), the model will have a hard time differentiating between the dumpling and non-dumpling (since a large portion of the screen is just the background). 
+
+One way that I've thought about to circumvent this in the final version of the model is to, when presenting the dumpling, try and present in a way that the background is blocked, or test in an environment where the background is totally different. In the final video, I've turned the webcam to a different direction than we training the images, and used a box as dumpling for the background when testing with the dumplings.
 
 Final Video:
 https://drive.google.com/file/d/1A4O0go-geE4bn_-yid1RxgzChTdixfUi/view?usp=sharing

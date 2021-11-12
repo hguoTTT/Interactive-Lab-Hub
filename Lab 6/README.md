@@ -86,6 +86,13 @@ Once connected, you should be able to see all the messages under the IDD topic. 
 
 **\*\*\*Consider how you might use this messaging system on interactive devices, and draw/write down 5 ideas here.\*\*\***
 
+Some ideas that can utilize the messaging system:
+1. A food ordering system at a fast food restaurant.
+2. A barebones texting system for when internet connection is poor.
+3. A homesystem notification that people send to you when you have a delivery.
+4. A remote timer, where the timer will send a message to you when the time is up.
+5. A barebones texting system where you can send instructions one by one.
+
 ### Part C
 ### Streaming a Sensor
 

@@ -121,6 +121,12 @@ The MQTT explorer showed a message sayiing that the Node has been touched, which
 
 **\*\*\*Pick another part in your kit and try to implement the data streaming with it.\*\*\***
 
+I've impleted the joystick_test.py to test the data streaming the joystick inputs.
+
+Pics are as follows:
+![Test Image 1](image0%20(16).jpg)
+![Test Image 1](image1%20(3).jpg)
+
 
 ### Part D
 ### The One True ColorNet

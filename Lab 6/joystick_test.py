@@ -1,7 +1,7 @@
 import time
 import board
 import busio
-import adafruit_mpr121
+import qwiic_joystick
 
 import paho.mqtt.client as mqtt
 import uuid
@@ -16,14 +16,15 @@ client.connect(
 
 topic = 'IDD/your/topic/here'
 
-i2c = busio.I2C(board.SCL, board.SDA)
+myJoystick = qwiic_joystick.QwiicJoystick()
 
-mpr121 = adafruit_mpr121.MPR121(i2c)
+myJoystick.begin()
 
 while True:
-    for i in range(12):
-        if mpr121[i].value:
-        	val = f"Twizzler {i} touched!"
-        	print(val)
-        	client.publish(topic, val)
+    val = "X: %d, Y: %d, Button: %d" % ( \
+					myJoystick.horizontal, \
+					myJoystick.vertical, \
+					myJoystick.button)
+    print(val)
+    client.publish(topic, val)
     time.sleep(0.25)

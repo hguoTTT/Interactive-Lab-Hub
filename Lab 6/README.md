@@ -117,6 +117,8 @@ Plug in the capacitive sensor board with the Qwiic connector. Use the alligator 
 ![Test Image 1](image0%20(15).jpg)
 ![Test Image 1](image1%20(2).jpg)
 
+The MQTT explorer showed a message sayiing that the Node has been touched, which was the same message was shown in the terminal during lab 4.
+
 **\*\*\*Pick another part in your kit and try to implement the data streaming with it.\*\*\***
 
 

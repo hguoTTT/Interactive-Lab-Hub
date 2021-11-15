@@ -10,6 +10,7 @@ import digitalio
 from PIL import Image, ImageDraw, ImageFont
 import adafruit_rgb_display.st7789 as st7789
 
+count = 0;
 
 # Configuration for CS and DC pins (these are FeatherWing defaults on M0/M4):
 cs_pin = digitalio.DigitalInOut(board.CE0)
@@ -45,7 +46,6 @@ disp = st7789.ST7789(
 
 height =  disp.height
 width = disp.width 
-image = Image.new("RGB", (width, height))
 draw = ImageDraw.Draw(image)
 
 
@@ -55,7 +55,7 @@ sensor = adafruit_apds9960.apds9960.APDS9960(i2c)
 sensor.enable_color = True
 r, g, b, a = sensor.color_data
 
-topic = 'IDD/colors'
+topic = 'IDD/count'
 
 def on_connect(client, userdata, flags, rc):
     print(f"connected with result code {rc}")
@@ -64,9 +64,7 @@ def on_connect(client, userdata, flags, rc):
 def on_message(cleint, userdata, msg):
     # if a message is recieved on the colors topic, parse it and set the color
     if msg.topic == topic:
-        colors = list(map(int, msg.payload.decode('UTF-8').split(',')))
-        draw.rectangle((0, 0, width, height*0.5), fill=color)
-        disp.image(image)
+        count += 1
 
 client = mqtt.Client(str(uuid.uuid1()))
 client.tls_set()
@@ -91,7 +89,7 @@ signal.signal(signal.SIGINT, handler)
 
 # our main loop
 while True:
-    r, g, b, a = sensor.color_data
+    string = "Count: " + str(count)
     
     # there's a few things going on here 
     # colors are reported at 16bits (thats 65536 levels per color).
@@ -99,11 +97,9 @@ while True:
     # color are also reported with an alpha (opacity, or in our case a proxy for ambient brightness)
     # 255*(1-(a/65536)) acts as scaling factor for brightness, it worked well enough in the lab but 
     # your success may vary depenging on how much ambient light there is, you can mess with these constants
-    color =tuple(map(lambda x: int(255*(1-(a/65536))*255*(x/65536)) , [r,g,b,a]))
 
     # if we press the button, send msg to cahnge everyones color
     if not buttonA.value:
-        client.publish(topic, f"{r},{g},{b}")
-    draw.rectangle((0, height*0.5, width, height), fill=color[:3])
-    disp.image(image)
+        client.publish(topic, "Increment Count")
+    draw.text((0, 0), string, font=font, fill=(0,0,0))
     time.sleep(.01)

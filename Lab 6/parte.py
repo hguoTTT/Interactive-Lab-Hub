@@ -12,6 +12,7 @@ import adafruit_rgb_display.st7789 as st7789
 
 count = 0;
 
+
 # Configuration for CS and DC pins (these are FeatherWing defaults on M0/M4):
 cs_pin = digitalio.DigitalInOut(board.CE0)
 dc_pin = digitalio.DigitalInOut(board.D25)
@@ -47,6 +48,8 @@ disp = st7789.ST7789(
 height =  disp.height
 width = disp.width 
 
+image = Image.new("RGB", (width, height))
+draw = ImageDraw.Draw(image)
 
 i2c = busio.I2C(board.SCL, board.SDA)
 sensor = adafruit_apds9960.apds9960.APDS9960(i2c)

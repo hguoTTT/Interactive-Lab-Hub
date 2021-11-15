@@ -64,6 +64,7 @@ def on_connect(client, userdata, flags, rc):
     client.subscribe(topic)
 
 def on_message(cleint, userdata, msg):
+    global count
     # if a message is recieved on the colors topic, parse it and set the color
     if msg.topic == topic:
         count += 1

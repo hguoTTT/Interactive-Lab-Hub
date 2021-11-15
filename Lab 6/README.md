@@ -159,6 +159,8 @@ Of course not! You can go to [https://one-true-colornet.glitch.me/](https://one-
 
 **\*\*\*Can you set up the script that can read the color anyone else publish and display it on your screen?\*\*\***
 
+You can change the script so that when receiving the messages, instead of displaying on half the screen (height * 0.5), make it so that it displays on the whole screen, and disable the part where you chane colors based on your own screen. This way the device is tuned so that it always displays the screens the other people publish.
+
 
 ### Part E
 ### Make it your own

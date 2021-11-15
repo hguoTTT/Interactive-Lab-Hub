@@ -106,7 +106,7 @@ while True:
     # if we press the button, send msg to cahnge everyones color
     if not buttonA.value:
         client.publish(topic, "Increment Count")
-    draw.text((0, 0), string, font=font, fill=(0,0,0))
+    draw.text((0, 0), string, font=font, fill=(240,255,255))
     
     disp.image(image, 90)
     time.sleep(.01)

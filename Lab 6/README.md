@@ -169,7 +169,11 @@ Find at least one class (more are okay) partner, and design a distributed applic
 
 **\*\*\*1. Explain your design\*\*\*** For example, if you made a remote controlled banana piano, explain why anyone would want such a thing.
 
+The device is a local counter that stores the data (total counts) of various different counts. This is really useful when we want to have different people do seperates counts, but also make them aware how many counts they have total as a whole group. This can be useful in monitoring car traffics on different streets. Or accepting a limited number of people into a venue.
+
 **\*\*\*2. Diagram the architecture of the system.\*\*\*** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
+
+Everytime the user clicks the button on the pi, a message is sent to the MQTT server (a specific message that doesn't have to be anything specific). The script also has a reader function that constantly looks out for the message on the server. Everytime the pi sees an instance of the message on the MQTT server, the count is incremented. Finally the current count is displayed on the pi screen. 
 
 **\*\*\*3. Build a working prototype of the system.\*\*\*** Do think about the user interface: if someone encountered these bananas somewhere in the wild, would they know how to interact with them? Should they know what to expect?
 

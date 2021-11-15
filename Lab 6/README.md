@@ -181,5 +181,10 @@ The prototype is built under the parte.py. The UI will show the current counter,
 
 **\*\*\*4. Document the working prototype in use.\*\*\*** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
 
+A video of the working prototype and the interactions:
+https://drive.google.com/file/d/18aCYnG_TAANN58rfBJEekQ5P_Nhc4RtX/view?usp=sharing
+
+As we can see, the counter works both when we try to increment with pressing the button, and also works when some other device attempts to increment when they respond to the topic (as we can see when I posted through the MQTT app on the laptop).
+
 <!--**\*\*\*5. BONUS (Wendy didn't approve this so you should probably ignore it)\*\*\*** get the whole class to run your code and make your distributed system BIGGER.-->
 

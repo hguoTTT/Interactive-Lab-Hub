@@ -46,7 +46,6 @@ disp = st7789.ST7789(
 
 height =  disp.height
 width = disp.width 
-draw = ImageDraw.Draw(image)
 
 
 i2c = busio.I2C(board.SCL, board.SDA)

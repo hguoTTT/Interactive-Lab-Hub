@@ -93,6 +93,8 @@ signal.signal(signal.SIGINT, handler)
 while True:
     string = "Count: " + str(count)
     
+    font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", fontSize)
+    
     # there's a few things going on here 
     # colors are reported at 16bits (thats 65536 levels per color).
     # we need to convert that to 0-255. thats what the 255*(x/65536) is doing

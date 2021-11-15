@@ -107,4 +107,6 @@ while True:
     if not buttonA.value:
         client.publish(topic, "Increment Count")
     draw.text((0, 0), string, font=font, fill=(0,0,0))
+    
+    disp.image(image, 90)
     time.sleep(.01)

@@ -97,7 +97,7 @@ while True:
         pause()
     if not buttonB.value:
         unpause()    
-    draw.text((0, 0), black, font=font, fill=(240,255,255))
+    draw.text((0, 0), string, font=font, fill=(240,255,255))
     
     disp.image(image, 90)
     time.sleep(.01)

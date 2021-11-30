@@ -1,7 +1,6 @@
 import pygame
 import board
 import busio
-import adafruit_apds9960.apds9960
 import time
 import paho.mqtt.client as mqtt
 import uuid
@@ -57,11 +56,6 @@ width = disp.height
 image = Image.new("RGB", (width, height))
 draw = ImageDraw.Draw(image)
 
-i2c = busio.I2C(board.SCL, board.SDA)
-sensor = adafruit_apds9960.apds9960.APDS9960(i2c)
-
-sensor.enable_color = True
-r, g, b, a = sensor.color_data
 
 #================================ music player ===============================================
 
@@ -103,7 +97,7 @@ while True:
         pause()
     if not buttonB.value:
         unpause()    
-    draw.text((0, 0), string, font=font, fill=(240,255,255))
+    draw.text((0, 0), black, font=font, fill=(240,255,255))
     
     disp.image(image, 90)
     time.sleep(.01)

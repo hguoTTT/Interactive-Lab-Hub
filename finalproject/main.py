@@ -69,7 +69,7 @@ pygame.init()
 pygame.mixer.init()
 
 def play(x):
-    pygame.mixer.music.load(song)
+    pygame.mixer.music.load(x)
     pygame.mixer.music.play()
 def stop():
     pygame.mixer.music.stop()

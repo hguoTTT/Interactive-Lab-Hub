@@ -101,6 +101,8 @@ while True:
     # if we press the button, send msg to cahnge everyones color
     if not buttonA.value:
         pause()
+    if not buttonB.value:
+        unpause()    
     draw.text((0, 0), string, font=font, fill=(240,255,255))
     
     disp.image(image, 90)

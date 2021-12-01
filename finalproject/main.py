@@ -97,7 +97,7 @@ while True:
         elif reponse == "play":
             unpause()
             continue
-        if !isPause:
+        if isPause == False:
             unpause()
     #if not buttonB.value:
         #unpause()    

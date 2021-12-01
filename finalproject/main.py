@@ -16,6 +16,18 @@ import digitalio
 from PIL import Image, ImageDraw, ImageFont
 import adafruit_rgb_display.st7789 as st7789
 
+# ======================= record voices =====================================
+
+PauseText = 'Music Paused'
+PlayText = 'Music Continued'
+
+language = 'en'
+mPause = gTTS(text=PauseText, lang=language, slow=False)
+mPlay = gTTS(text=PlayText, lang=language, slow=False) 
+
+mPause.save("mpause.mp3")
+mPlay.save("mplay.mp3")
+
 # ======================= Controls ==========================================
 
 # Configuration for CS and DC pins (these are FeatherWing defaults on M0/M4):
@@ -93,8 +105,10 @@ while True:
             audio = r.listen(source)
         response = r.recognize_sphinx(audio)
         if response == "pause":
+            os.system("mplayer mpause.mp3")
             continue
         elif response == "play":
+            os.system("mplayer mplay.mp3")
             unpause()
             continue
         if isPause == False:

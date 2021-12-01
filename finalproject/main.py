@@ -106,9 +106,11 @@ while True:
         response = r.recognize_sphinx(audio)
         if response == "pause":
             os.system("mplayer mpause.mp3")
+            isPause = True
             continue
         elif response == "play":
             os.system("mplayer mplay.mp3")
+            isPause = False
             unpause()
             continue
         if isPause == False:

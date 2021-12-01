@@ -86,7 +86,7 @@ while True:
     font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 18)
     
     draw.rectangle((0, 0, width, height), outline=0, fill=(0, 0, 0))
-    
+    '''
     if not buttonA.value:
         pause()
         with sr.Microphone() as source:
@@ -99,8 +99,11 @@ while True:
             continue
         if isPause == False:
             unpause()
-    #if not buttonB.value:
-        #unpause()    
+    '''
+    if not buttonA.value:
+        pause()
+    if not buttonB.value:
+        unpause()    
     draw.text((0, 0), string, font=font, fill=(240,255,255))
     
     disp.image(image, 90)

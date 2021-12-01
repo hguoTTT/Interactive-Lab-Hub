@@ -75,6 +75,8 @@ def unpause():
 song = "test.mp3"
 play(song)
 
+isPause = false
+
 #Set up speech recognition
 r = sr.Recognizer()
     
@@ -85,18 +87,20 @@ while True:
     
     draw.rectangle((0, 0, width, height), outline=0, fill=(0, 0, 0))
     
-    # there's a few things going on here 
-    # colors are reported at 16bits (thats 65536 levels per color).
-    # we need to convert that to 0-255. thats what the 255*(x/65536) is doing
-    # color are also reported with an alpha (opacity, or in our case a proxy for ambient brightness)
-    # 255*(1-(a/65536)) acts as scaling factor for brightness, it worked well enough in the lab but 
-    # your success may vary depenging on how much ambient light there is, you can mess with these constants
-
-    # if we press the button, send msg to cahnge everyones color
     if not buttonA.value:
         pause()
-    if not buttonB.value:
-        unpause()    
+        with sr.Microphone() as source:
+            audio = r.listen(source)
+        response = r.recognize_sphinx(audio)
+        if reponse == "pause":
+            continue
+        elif reponse == "play:
+            unpause()
+            continue
+        if !isPause:
+            unpause()
+    #if not buttonB.value:
+        #unpause()    
     draw.text((0, 0), string, font=font, fill=(240,255,255))
     
     disp.image(image, 90)

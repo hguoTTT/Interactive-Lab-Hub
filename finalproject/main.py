@@ -75,7 +75,7 @@ def unpause():
 song = "test.mp3"
 play(song)
 
-isPause = false
+isPause = False
 
 #Set up speech recognition
 r = sr.Recognizer()

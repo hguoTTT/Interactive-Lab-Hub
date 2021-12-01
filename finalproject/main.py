@@ -92,9 +92,9 @@ while True:
         with sr.Microphone() as source:
             audio = r.listen(source)
         response = r.recognize_sphinx(audio)
-        if reponse == "pause":
+        if response == "pause":
             continue
-        elif reponse == "play":
+        elif response == "play":
             unpause()
             continue
         if isPause == False:

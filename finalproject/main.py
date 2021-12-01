@@ -104,7 +104,7 @@ while True:
         with sr.Microphone() as source:
             audio = r.listen(source)
         response = r.recognize_sphinx(audio)
-        print("DEBUG:" + reponse)
+        print("DEBUG:" + response)
         if response == "pause":
             os.system("mplayer mpause.mp3")
             isPause = True

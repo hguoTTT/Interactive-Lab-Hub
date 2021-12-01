@@ -94,7 +94,7 @@ while True:
         response = r.recognize_sphinx(audio)
         if reponse == "pause":
             continue
-        elif reponse == "play:
+        elif reponse == "play":
             unpause()
             continue
         if !isPause:

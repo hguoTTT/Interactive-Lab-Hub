@@ -9,7 +9,7 @@ The user is going to be able to play and stop the music as well as to skip the c
 
 The following shows the interactions drawn:
 
-![Test Image 1](image0%20(16).jpg)
+![Test Image 1](image0%20(17).jpg)
 
 Timeline: In the following two weeks, the first week would probably be used to iterate through the prototype and designs as well as to try and get a functioning music player to work (without the voice controls). Then, in the second, I will reiterate some prototype and designs based on the user testing and feedback, as well as to integrate the voice controls into the device.
 

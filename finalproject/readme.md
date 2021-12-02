@@ -1,13 +1,15 @@
-IDD Final Project
+# IDD Final Project
 Hansen Guo
 
-Project Plan
+## Project Plan
 
 Big idea: Music player with voice controls. The initial inspiration for this is the ipod nano music player. It is a music player that is small and minimalistic. You can control the whole music player by just using the touch screen. In my final project, I’ve decided to build a similar product with the raspberry pi. However, unlike the ipod nano, I am going to utilize voice controls instead of touch screens.
 
 The user is going to be able to play and stop the music as well as to skip the current song. If time permits, I will also try to implement a shuffle function, where a random song in the current list is played instead.
 
 The following shows the interactions drawn:
+
+![Test Image 1](image0%20(16).jpg)
 
 Timeline: In the following two weeks, the first week would probably be used to iterate through the prototype and designs as well as to try and get a functioning music player to work (without the voice controls). Then, in the second, I will reiterate some prototype and designs based on the user testing and feedback, as well as to integrate the voice controls into the device.
 

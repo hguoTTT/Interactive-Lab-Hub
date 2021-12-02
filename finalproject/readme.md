@@ -33,3 +33,5 @@ Currently valid inputs are: "Stop", to stop the song, and "Play" to unpause the 
 ## Video
 Below is a video of the music player in action:
 https://drive.google.com/file/d/1JC0UDHwOXK79AA28ndHGVjyrjW76YM35/view?usp=sharing
+
+## Reflection of Process

@@ -19,6 +19,17 @@ Risks/contingencies: As I have not coded a music player, there might be unseen d
 
 Fall-back plan: In case of the music player being an unsurpassable roadblock, I will end up building a music player prototype, where all the function except playing the music is present. The device, instead of playing the music, will use text-to-speech to say things like “song 1” to denote that a certain song is playing, and all other functionalities will still be present (pausing, resuming, skipping song, shuffle playlist etc).
 
+## Documentation
+
+Diagram drawing out the interaction:
+![Test Image 1](image0%20(17).jpg)
+
+Libraries Used: Pygames, gTTS, speechRecognition, pocketSphinx
+
+When the program is ran, the first song will automatically start playing. When the user presses a button, the program will briefly pause the song, and listen for the user's voice command. The program will use the speach recognition programs to recognize and interpret the user's command. If a valid command is received, the corresponding command will be executed; otherwise, the song will be unpaused (or nothing happens if the song is already paused before).
+
+Currently valid inputs are: "Stop", to stop the song, and "Play" to unpause the song and continue playing it.
+
 ## Video
 Below is a video of the music player in action:
 https://drive.google.com/file/d/1JC0UDHwOXK79AA28ndHGVjyrjW76YM35/view?usp=sharing

@@ -103,14 +103,14 @@ while True:
         pause()
         with sr.Microphone() as source:
             audio = r.listen(source)
-        response = r.recognize_sphinx(audio)
-        responseInt = w2n.word_to_num(response)
+        response = r.recognize_google(audio)
+        #responseInt = w2n.word_to_num(response)
         print("DEBUG:" + responseInt)
-        if responseInt == 1:
+        if response == "stop":
             os.system("mplayer mpause.mp3")
             isPause = True
             continue
-        elif responseInt == 2:
+        elif response == "play":
             os.system("mplayer mplay.mp3")
             isPause = False
             unpause()

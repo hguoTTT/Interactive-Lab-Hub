@@ -105,7 +105,7 @@ while True:
             audio = r.listen(source)
         response = r.recognize_google(audio)
         #responseInt = w2n.word_to_num(response)
-        print("DEBUG:" + responseInt)
+        print("DEBUG:" + response)
         if response == "stop":
             os.system("mplayer mpause.mp3")
             isPause = True

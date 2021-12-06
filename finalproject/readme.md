@@ -30,6 +30,11 @@ When the program is ran, the first song will automatically start playing. When t
 
 Currently valid inputs are: "Stop", to stop the song, and "Play" to unpause the song and continue playing it.
 
+Below is a video of a user testing out the input:
+https://drive.google.com/file/d/1FFHJS2IVKDPW0mBMpCMTVT52fFb9il10/view?usp=sharing
+
+One feedback that was given was that sometimes the voice recognizer isn't accurate, and would sometimes misinterpret the command, and therefore not do what is intended. Because of that a few attempts was spent to solve this problem. First, I experimented using different words as the "command word". At first, I thought that the word "Pause" and "Resume" would be most fitting word for the device. But quickly, I changed it to "Stop" and "Play" because they are easier to say and recognize. Another attempt that I tried was to assign the commands a number and ask the user to say that (for example, assigning the stop function to "1" and the play function to "2"). This was because the calculator device I made in lab 3 was pretty successful, and I thought that the speech recognizer library was pretty good with recognizing numbers. However, with some testing with users, I found out that the accuracy was not greatly improved and was informed that this "code" is rather unintuitive. The last attempt that I did was try a different voice interpreter (using the google voice recognizer instead of the CMU pocket sphinx).
+
 ## Video
 Below is a video of the music player in action:
 https://drive.google.com/file/d/1JC0UDHwOXK79AA28ndHGVjyrjW76YM35/view?usp=sharing

@@ -103,7 +103,7 @@ while True:
         pause()
         with sr.Microphone() as source:
             audio = r.listen(source)
-        response = r.recognize_google(audio)
+        response = r.recognize_sphinx(audio)
         #responseInt = w2n.word_to_num(response)
         print("DEBUG:" + response)
         if response == "stop":

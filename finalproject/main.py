@@ -120,7 +120,7 @@ while True:
             isPause = False
             unpause()
             continue
-        elif response == "next song":
+        elif response == "banana":
             os.system("mplayer mskip.mp3")
             isPause = False
             if curr == "test.mp3":

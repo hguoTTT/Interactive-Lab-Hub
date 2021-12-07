@@ -20,13 +20,16 @@ import adafruit_rgb_display.st7789 as st7789
 
 PauseText = 'Music Paused'
 PlayText = 'Music Continued'
+SkipText = "Music Skipped"
 
 language = 'en'
 mPause = gTTS(text=PauseText, lang=language, slow=False)
 mPlay = gTTS(text=PlayText, lang=language, slow=False) 
+mSkip = gTTS(text=SkipText, lang=language, slow=False) 
 
 mPause.save("mpause.mp3")
 mPlay.save("mplay.mp3")
+mSkip.save("mskip.mp3")
 
 # ======================= Controls ==========================================
 
@@ -85,7 +88,9 @@ def unpause():
     pygame.mixer.music.unpause()
     
 song = "test.mp3"
-play(song)
+song2 = "test2.mp3"
+curr = "test.mp3"
+play(curr)
 
 isPause = False
 
@@ -115,6 +120,15 @@ while True:
             isPause = False
             unpause()
             continue
+        elif response == "skip":
+            os.system("mplayer mskip.mp3")
+            isPause = False
+            if curr == "test.mp3":
+                curr = "test2.mp3"
+                play("test2.mp3")
+            else:
+                curr = "test.mp3"
+                play("test.mp3")     
         if isPause == False:
             unpause()
     

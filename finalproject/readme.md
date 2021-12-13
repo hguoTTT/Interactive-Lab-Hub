@@ -26,7 +26,7 @@ Diagram drawing out the interaction:
 
 Libraries Used: Pygames, gTTS, speechRecognition, pocketSphinx
 
-When the program is ran, the first song will automatically start playing. When the user presses a button, the program will briefly pause the song, and listen for the user's voice command. The program will use the speach recognition programs to recognize and interpret the user's command. If a valid command is received, the corresponding command will be executed; otherwise, the song will be unpaused (or nothing happens if the song is already paused before).
+When the program is ran, the first song will automatically start playing. The song that is currently playing will be displayed on the respberry pi screen. When the user presses a button, the program will briefly pause the song, and listen for the user's voice command. The program will use the speach recognition programs to recognize and interpret the user's command. If a valid command is received, the corresponding command will be executed; otherwise, the song will be unpaused (or nothing happens if the song is already paused before).
 
 Currently valid inputs are: "Stop", to stop the song, and "Play" to unpause the song and continue playing it. The skip song input is implented but doesn't have the keyword that makes and have a higher success rate with reception (currently the command for skipping the song is "banana").
 
@@ -45,4 +45,4 @@ Below is the final video of the music player in action:
 https://drive.google.com/file/d/1KjAgygYfir_h035MkpvHyx7rZHKno3tl/view?usp=sharing
 
 ## Reflection of Process
-The music player was far from perfect and still has lots of room for improvement, and lots of roadblocks could've been avoided with more experience. For example, the audio reception issue could've been avoided and a lot of the time could've been saved if I had the insight to have used a better mic at the start. Also another forsight that would've been nice to have is to have tested the device in different environment. The room during the final presentation was much louder than my room where I did most of the testing. If I had the forsight or if I ever move forward with the project, I should've tested in more environment and taken these considerations into account.
+The music player was far from perfect and still has lots of room for improvement, and lots of roadblocks could've been avoided with more forsight. For example, the audio reception issue could've been avoided and a lot of the time could've been saved if I had the insight to have used a better mic at the start. Also another forsight that would've been nice to have is to have tested the device in different environment. The room during the final presentation was much louder than my room where I did most of the testing. If I had the forsight or if I ever move forward with the project, I should've tested in more environment and taken these considerations into account.
